@@ -11,8 +11,7 @@ import { SITE } from "@/constants/site";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-white via-slate-50 to-blue-50">
-      <Container>
+    <section className="relative flex min-h-screen items-center overflow-hidden bg-gradient-to-br from-white via-slate-50 to-blue-50 pt-20">      <Container>
         <div className="grid lg:grid-cols-2 items-center gap-16">
           {/* Left Side */}
           <motion.div
